@@ -39,7 +39,7 @@ public class Resistors {
     // scans though colour array to assign colour value
      for(i = 0; i<10; i++){
      if (colour1.equalsIgnoreCase(resistorColours[i])) {
-    
+     
          res1 = i;
       }
      if (colour2.equalsIgnoreCase(resistorColours[i])) {
